@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeminiBotChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c540224143f54a3c938e45275de1c7c747694b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b37af23016cda413e693227aa2dc3d1f1731ad33")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeminiBotChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeminiBotChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

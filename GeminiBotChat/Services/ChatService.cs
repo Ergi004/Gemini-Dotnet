@@ -19,10 +19,10 @@ public class ChatService : IChatService
         IOptions<GenerativeAiOptions> opts,
         ILogger<ChatService> log)
     {
-        _db      = db;
+        _db = db;
         _googleAi = googleAi;
-        _opts    = opts.Value;
-        _log     = log;
+        _opts = opts.Value;
+        _log = log;
     }
 
     public async Task<ChatResponseDto> SendMessageAsync(
@@ -35,8 +35,13 @@ public class ChatService : IChatService
                             .FirstOrDefaultAsync(c => c.Id == request.ChatId, cancellationToken)
                    ?? new Chat();
 
+
         if (chat.Id == 0)
             _db.Chats.Add(chat);
+            chat.Prompts.Add(new Prompt {
+                Content = _opts.SystemPrompt,
+                Role    = Role.System
+            });
 
         chat.Prompts.Add(new Prompt
         {
