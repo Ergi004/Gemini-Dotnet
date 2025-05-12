@@ -1,0 +1,6 @@
+@GeminiBotChat_HostAddress = http://localhost:5247
+
+GET {{GeminiBotChat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

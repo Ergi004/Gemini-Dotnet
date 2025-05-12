@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiBotChat", "GeminiBotChat\GeminiBotChat.csproj", "{273C2BD3-2414-6AAA-521E-DE7CB101959D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{273C2BD3-2414-6AAA-521E-DE7CB101959D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273C2BD3-2414-6AAA-521E-DE7CB101959D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273C2BD3-2414-6AAA-521E-DE7CB101959D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273C2BD3-2414-6AAA-521E-DE7CB101959D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF70E1B4-BA9F-43D3-A021-4F3C656EA020}
+	EndGlobalSection
+EndGlobal
